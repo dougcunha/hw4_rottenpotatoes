@@ -36,6 +36,10 @@ class MoviesController < ApplicationController
     @movies = Movie.find_all_by_rating(@selected_ratings.keys, ordering)
   end
 
+  def movies_by_director
+    @movies = Movie.movies_by_director(params[:director])
+  end
+
   def new
     # default: render 'new' template
   end

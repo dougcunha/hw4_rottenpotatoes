@@ -37,6 +37,22 @@ Then /^I should see all movies$/ do
   end
 end
 
+And /^I should see "([^"]*)"$/ do |movie|
+  if page.respond_to? :should
+    page.should have_content(movie)
+  else
+    assert page.has_content?(movie)
+  end
+end
+
+But /^I should not see "([^"]*)"$/ do |movie|
+  if page.respond_to? :should
+    page.should have_no_content(movie)
+  else
+    assert page.has_no_content?(movie)
+  end
+end
+
 Then /^the director of "([^"]*)" should be "([^"]*)"$/ do |movie, director|
   page.should have_content(movie)
   page.should have_content(director)

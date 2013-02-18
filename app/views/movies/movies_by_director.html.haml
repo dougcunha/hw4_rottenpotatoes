@@ -1,0 +1,5 @@
+%h2 #{@director ? "Details about director" + @director : "There are no director linked to this movie."}
+%p Director also directed the following movies:
+%ul
+  - @movies.each do |movie|
+    %li= movie.title if movie

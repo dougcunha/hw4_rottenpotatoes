@@ -1,0 +1,111 @@
+---
+RSpec:
+  :original_result:
+    D:/eclipse/hw4_rottenpotatoes/app/controllers/application_controller.rb:
+    - 1
+    - 1
+    - 
+    D:/eclipse/hw4_rottenpotatoes/app/helpers/application_helper.rb:
+    - 1
+    - 
+    D:/eclipse/hw4_rottenpotatoes/app/helpers/movies_helper.rb:
+    - 1
+    - 
+    - 1
+    - 0
+    - 
+    - 
+    D:/eclipse/hw4_rottenpotatoes/app/controllers/movies_controller.rb:
+    - 1
+    - 
+    - 1
+    - 0
+    - 0
+    - 
+    - 
+    - 
+    - 1
+    - 0
+    - 0
+    - 
+    - 0
+    - 
+    - 0
+    - 
+    - 0
+    - 0
+    - 
+    - 0
+    - 0
+    - 
+    - 
+    - 0
+    - 0
+    - 0
+    - 0
+    - 
+    - 
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 
+    - 0
+    - 
+    - 
+    - 1
+    - 5
+    - 2
+    - 2
+    - 2
+    - 
+    - 3
+    - 3
+    - 
+    - 
+    - 1
+    - 
+    - 
+    - 
+    - 1
+    - 0
+    - 0
+    - 0
+    - 
+    - 
+    - 1
+    - 0
+    - 
+    - 
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 
+    - 
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 
+    - 
+    - 
+    D:/eclipse/hw4_rottenpotatoes/app/models/movie.rb:
+    - 1
+    - 1
+    - 0
+    - 
+    - 1
+    - 1
+    - 
+    - 1
+    - 0
+    - 
+    - 
+  :created_at: 2013-02-17 23:01:02.111989000 -03:00
+Cucumber Features:
+  :original_result: {}
+  :created_at: 2013-02-17 22:54:20.095393000 -03:00

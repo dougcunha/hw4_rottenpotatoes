@@ -37,7 +37,13 @@ class MoviesController < ApplicationController
   end
 
   def movies_by_director
+    if (params[:director].nil? or params[:director] == "")
+      flash[:notice] = "'#{params[:movie]}' has no director info"
+      @notice = flash[:notice]
+      redirect_to movies_path and return
+    end
     @movies = Movie.movies_by_director(params[:director])
+    @director = params[:director]
   end
 
   def new
@@ -46,7 +52,7 @@ class MoviesController < ApplicationController
 
   def create
     @movie = Movie.create!(params[:movie])
-    flash[:notice] = "#{@movie.title} was successfully created."
+    flash[:notice] = "'#{@movie.title}' was successfully created."
     redirect_to movies_path
   end
 

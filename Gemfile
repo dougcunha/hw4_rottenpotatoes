@@ -16,8 +16,13 @@ group :development, :test do
   gem 'capybara'
   gem 'launchy'
   gem 'rspec-rails'
-  gem 'simplecov'
+  gem 'factory_girl'
+  gem 'simplecov', require: false
+  gem 'rake'
 end
+
+
+
 group :production do
   gem 'pg'
 end
